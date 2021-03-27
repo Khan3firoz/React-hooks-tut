@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 const RegistrationFrom = () => {
+    //create react object
     const [userRegistration, setuserRegistration] = useState({
         username: "",
         email: "",
